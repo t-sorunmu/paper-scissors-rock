@@ -1,0 +1,48 @@
+body {
+    background-color: #fcf8f4;
+}
+
+h1 {
+    text-align: center;
+    font-family: Comfortaa, sans-serif;
+    font-size: 5em;
+    color: #e39932;
+}
+
+.image-button {
+    margin: auto;
+    width: 20%;
+    height: 50%;
+    cursor: pointer;
+    transition: transform, 0.5s;
+    transition-timing-function: ease;
+    filter: sepia(80%);
+}
+
+.image-button:hover {
+    transform: scale(1.5, 1.5);
+}
+
+#game-window {
+    margin: auto;
+    width: 50%;
+    background-color: #eeac4b;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2%;
+}
+
+#scores {
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+    color: #110d07;
+    text-align: center;
+    font-family: Atkinson Hyperlegible, sans-serif;
+    font-size: 24pt;
+
+}
+
+#scissors {
+    filter: sepia(100%);
+}
