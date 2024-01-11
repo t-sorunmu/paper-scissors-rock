@@ -50,8 +50,7 @@ function playGame(choice) {
     } else {
         (outcome === "win") ? userScore++ : computerScore++;
         displayScores();
-        alert(`You chose ${userChoice} and the computer chose ${computerChoice}. You ${gameOutcome(userChoice, computerChoice)}!
-        Your Score: ${userScore} | Computer's Score: ${computerScore}`);
+        alert(`You chose ${userChoice} and the computer chose ${computerChoice}. You ${gameOutcome(userChoice, computerChoice)}!`);
     }
 }
 

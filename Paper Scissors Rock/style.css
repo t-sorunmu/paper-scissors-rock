@@ -29,7 +29,8 @@ h1 {
     background-color: #eeac4b;
     display: flex;
     justify-content: center;
-    padding: 5% 2%;
+    padding: 3% 2%;
+    border-radius: 40px;
 }
 
 #scores {
